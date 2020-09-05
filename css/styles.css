@@ -1,0 +1,19 @@
+.content{
+    margin-top: 56px;
+    margin-left: 10%;
+    padding-top: 30px;
+    width: 80%;
+}
+.footer{
+    background-color: #deecf9;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.navbar-nav{
+    margin-left: 10% !important;
+}
+.nav-item{
+    margin: 0 5% 0 5%;
+}
