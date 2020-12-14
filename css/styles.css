@@ -1,19 +1,84 @@
+/* Body */
+body{
+    margin-bottom: 30px;
+}
 .content{
-    margin-top: 56px;
-    margin-left: 10%;
-    padding-top: 30px;
-    width: 80%;
+    margin-left: 15%;
+    width: 70%;
 }
 .footer{
     background-color: #deecf9;
+    color: rgb(199, 199, 199);
     position: fixed;
     bottom: 0;
     width: 100%;
     text-align: center;
 }
+.titles{
+    font-weight: lighter;
+}
+
+/* Navigation Bar */
 .navbar-nav{
     margin-left: 10% !important;
 }
 .nav-item{
     margin: 0 5% 0 5%;
+}
+
+/* Introduction */
+#introduction{
+    margin-top: 56px;
+    padding-top: 30px;
+}
+.h-intro{
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.h-intro > div{
+    width: 50%; 
+}
+.selfpic{
+    overflow: auto;
+    text-align: center;
+}
+#selfpic{
+    width: 60%;
+}
+
+/* Projects */
+.btn{
+    height: 24px !important;
+    padding: 0 5px;
+    border: none;
+    background-color: #95B9C7;
+}
+.btn:hover{
+    background-color: #95B9C7;
+}
+.btn:active{
+    background-color: #95B9C7;
+}
+.btn:visited{
+    background-color: #95B9C7;
+}
+
+/* For mobile viewers */
+@media only screen and (max-width: 600px) {
+
+    /* Introduction */
+    .h-intro{
+        overflow: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .h-intro > div{
+        margin-top: 10px;
+        width: 100%; 
+    }
+    #selfpic{
+        width: 80%;
+    }
 }
