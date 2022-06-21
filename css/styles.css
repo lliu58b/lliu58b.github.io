@@ -5,10 +5,11 @@ body{
 .content{
     margin-left: 15%;
     width: 70%;
+	margin-bottom: 25px;
 }
 .footer{
     background-color: #deecf9;
-    color: rgb(199, 199, 199);
+    color: rgb(90, 85, 85);
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -44,7 +45,7 @@ body{
     text-align: center;
 }
 #selfpic{
-    width: 60%;
+    width: 50%;
 }
 
 /* Projects */
