@@ -37,9 +37,6 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.h-intro > div{
-    width: 50%; 
-}
 .selfpic{
     overflow: auto;
     text-align: center;
