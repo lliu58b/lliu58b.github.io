@@ -99,6 +99,17 @@
         <h4 class="titles"><br><br>
             Projects
         </h4>
+        <ul>Technical Notes (an ALWAYS ongoing list)
+            <li>
+                <div>Results when Sampling from a Normal Distribution. </div>
+                <div>Started with a sample from $\mathcal{N}(\mu, \sigma^2)$, I filled in the gap of many proofs that are missing in textbooks: 
+                    how to arrive at a $\chi^2$ distribution with proofs of handwavy theorems and lemmas used in textbooks along the way, 
+                    how and why to derive $t$-distribution and $F$-distribution and prove their properties, 
+                    how they contribute to inference problems, and how they are related to each other and other distributions (e.g. to $\mathcal{N}(0,1)$ and to $\text{Beta}$).
+                </div>
+                <a class="btn btn-primary" role="button" href="docs/normal_samples.pdf" target="_blank">pdf</a>
+            </li>
+        </ul>
 		<ul>2022
             <li>
                 <div>(In progress) Honors Thesis Project, <i>Exploring Topological Structures in Neural Nets</i>.</div>
@@ -240,5 +251,11 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+        src="http://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
 </body>
 </html>
